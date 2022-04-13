@@ -30,7 +30,7 @@ public class EditorModel {
         return filePath;
     }
 
-    public String getFilePath() {
+    public final String getFilePath() {
         return filePath.get();
     }
 
@@ -38,7 +38,7 @@ public class EditorModel {
         return content;
     }
 
-    public String getContent() {
+    public final String getContent() {
         return content.get();
     }
 
@@ -46,7 +46,7 @@ public class EditorModel {
         return modified;
     }
 
-    public boolean getModified() {
+    public final boolean getModified() {
         return modified.get();
     }
 
